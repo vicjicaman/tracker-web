@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/tracker-web",
-  "version": "1.70.0-web-setup-prod",
+  "version": "1.70.1-web-setup-prod",
   "description": "Base for modules in node",
   "main": "./dist/index.js",
   "repository": "github.com:vicjicaman/tracker-web.git",
@@ -52,7 +52,7 @@
     "@nebulario/tracker-dll-redux": "1.70.0-master",
     "@nebulario/tracker-dll-utils": "1.70.0-master",
     "@nebulario/tracker-dll-vendor": "1.70.0-master",
-    "@nebulario/tracker-common": "1.70.0-web-setup-prod",
+    "@nebulario/tracker-common": "1.70.1-web-setup-prod",
     "@nebulario/tracker-graph": "1.70.0-graph-setup-prod"
   },
   "peerDependencies": {}

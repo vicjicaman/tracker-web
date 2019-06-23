@@ -17,10 +17,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/tracker-common@1.70.1-web-setup-prod":
-  version "1.70.1-web-setup-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.1-web-setup-prod.tgz#bda8cd46aa73fe9ae52c42e9755ecf100dd3cb7e"
-  integrity sha512-ExmbIJKywZVtKxBP2qfbcrk6P4vBZ12kSKuw3UDDnbvPJNAzwA9WWlfFknJ3kxKNE5sTVrgNlSGMV7vgqEBMeA==
+"@nebulario/tracker-common@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.0-master.tgz#fc8b5f0b561007e055810b6edfcbbca040bbe228"
+  integrity sha512-hpUyDDXpJq01SQQZCd3zbLBHKh46ozBEJFuBxdltTl2Ze+k27cEF5cAIpx5MfB4V639iSC4p1XwIZgRGnoT/Sg==
   dependencies:
     "@nebulario/tracker-lang" "1.70.0-master"
     "@nebulario/tracker-layout" "1.70.0-master"

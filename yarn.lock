@@ -17,18 +17,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/tracker-common@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.0-master.tgz#fc8b5f0b561007e055810b6edfcbbca040bbe228"
-  integrity sha512-hpUyDDXpJq01SQQZCd3zbLBHKh46ozBEJFuBxdltTl2Ze+k27cEF5cAIpx5MfB4V639iSC4p1XwIZgRGnoT/Sg==
-  dependencies:
-    "@nebulario/tracker-lang" "1.70.0-master"
-    "@nebulario/tracker-layout" "1.70.0-master"
-    "@nebulario/tracker-notify" "1.70.0-master"
-    performance-now "^2.1.0"
-    react-bootstrap-typeahead "^3.1.3"
-    uuid "^3.3.2"
-    validator "^10.7.1"
+"@nebulario/tracker-app-events@link:../tracker-app-events":
+  version "0.0.0"
+  uid ""
+
+"@nebulario/tracker-common@link:../tracker-common":
+  version "0.0.0"
+  uid ""
 
 "@nebulario/tracker-dll-apollo@1.70.0-master":
   version "1.70.0-master"

@@ -46,14 +46,14 @@
     "analyze": "webpack --config webpack.config.js --env.analyze"
   },
   "dependencies": {
-    "@nebulario/tracker-stateful-web": "1.70.0-master",
+    "@nebulario/tracker-stateful-web": "link:./../tracker-stateful-web",
     "@nebulario/tracker-dll-apollo": "1.70.0-master",
     "@nebulario/tracker-dll-react": "1.70.0-master",
     "@nebulario/tracker-dll-redux": "1.70.0-master",
     "@nebulario/tracker-dll-utils": "1.70.0-master",
     "@nebulario/tracker-dll-vendor": "1.70.0-master",
-    "@nebulario/tracker-common": "1.70.0-master",
-    "@nebulario/tracker-graph": "1.70.0-graph-setup-prod"
+    "@nebulario/tracker-common": "link:./../tracker-common",
+    "@nebulario/tracker-graph": "1.70.1-master"
   },
   "peerDependencies": {}
 }

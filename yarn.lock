@@ -17,18 +17,9 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/tracker-common@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.0-master.tgz#fc8b5f0b561007e055810b6edfcbbca040bbe228"
-  integrity sha512-hpUyDDXpJq01SQQZCd3zbLBHKh46ozBEJFuBxdltTl2Ze+k27cEF5cAIpx5MfB4V639iSC4p1XwIZgRGnoT/Sg==
-  dependencies:
-    "@nebulario/tracker-lang" "1.70.0-master"
-    "@nebulario/tracker-layout" "1.70.0-master"
-    "@nebulario/tracker-notify" "1.70.0-master"
-    performance-now "^2.1.0"
-    react-bootstrap-typeahead "^3.1.3"
-    uuid "^3.3.2"
-    validator "^10.7.1"
+"@nebulario/tracker-common@link:../tracker-common":
+  version "0.0.0"
+  uid ""
 
 "@nebulario/tracker-dll-apollo@1.70.0-master":
   version "1.70.0-master"
@@ -89,13 +80,38 @@
     popper.js "^1.12.9"
     reactstrap "^6.4.0"
 
-"@nebulario/tracker-graph@1.70.0-graph-setup-prod":
-  version "1.70.0-graph-setup-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.0-graph-setup-prod.tgz#01ee444c04a65f8cc48c32d3324bb443b2a83402"
-  integrity sha512-puGl6NBA8JY/nYd9nj0eeBqAz2WQmqTAEsPkvougB8mHZ+xK3o3/wwan6YWc4WGy0RhgcQ8RefFHR7ycbhC8Nw==
+"@nebulario/tracker-events@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-events/-/tracker-events-1.70.0-master.tgz#b095d4f1cff14d8155d3bccef71926c6ec6c2a19"
+  integrity sha512-Ln/5q0CVs2hMZrIizs9hUpPQ91ODzagtT74GEydvzjE+3ygDT9fFfHycBN0p9/mNT2wcf+SduFOELoHRrZO8vQ==
   dependencies:
-    "@nebulario/tracker-node" "1.70.0-master"
     "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
+"@nebulario/tracker-git@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-git/-/tracker-git-1.70.0-master.tgz#f044e84b6a090bd08c9563355f4f0fdee9d5621b"
+  integrity sha512-MqoXAjKJhPrjdGdq7mEZeiNg6xT1+0IPnbeKldkx5CTTVfYo5U23+XCdGWYiKvbi9+xuDhGHaZH23UHysNDwMA==
+  dependencies:
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
+"@nebulario/tracker-graph@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.1-master.tgz#e3feed706d36a0282ac0e3d3594dfc6021357d71"
+  integrity sha512-toh4nEo0Ns29xPWR4iVW/Oh0s6mKVpdQs1Q8Z5/9dBQomNyMxHOmhE3J6zTxdkGqqQSAVroDy3xTX08MvJ32KA==
+  dependencies:
+    "@nebulario/tracker-events" "1.70.0-master"
+    "@nebulario/tracker-git" "1.70.0-master"
+    "@nebulario/tracker-node" "1.70.0-master"
+    "@nebulario/tracker-operation" "1.70.0-master"
+    "@nebulario/tracker-ping" "1.70.0-master"
+    "@nebulario/tracker-process" "1.70.0-master"
+    "@nebulario/tracker-stream" "1.70.0-master"
     axios "^0.18.0"
     cors "^2.8.4"
     dotenv "^6.2.0"
@@ -134,6 +150,27 @@
   dependencies:
     react-toastify "^4.1.0"
 
+"@nebulario/tracker-operation@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-operation/-/tracker-operation-1.70.0-master.tgz#cda47d33dfc60682c7e791c0f990efca92906840"
+  integrity sha512-8N/TRWZTAxNoa9tH/haPg7GON1wOvxf7HhRryO2sO6opyyeHEf74NIqfmwt2tB2x3lrQhcWvaO9R55LVm6HfNA==
+  dependencies:
+    "@nebulario/tracker-events" "1.70.0-master"
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
+"@nebulario/tracker-ping@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-ping/-/tracker-ping-1.70.0-master.tgz#906bc0d6548064bbb7db786d979dd895d47d028b"
+  integrity sha512-MrQypegyXUmVWH/kNMSKT3JPeDD2gm5z//zgCclLJHq1kRsl2vNkghMa+yTrccpzPgzjeIKNroWUDFNU6qdk/Q==
+  dependencies:
+    "@nebulario/tracker-process" "1.70.0-master"
+    babel-runtime "^6.26.0"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
 "@nebulario/tracker-process@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/tracker-process/-/tracker-process-1.70.0-master.tgz#5daa596e0d28001a4551a11ffebb2a4030b28776"
@@ -145,16 +182,18 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/tracker-stateful-web@1.70.0-master":
+"@nebulario/tracker-stateful-web@link:../tracker-stateful-web":
+  version "0.0.0"
+  uid ""
+
+"@nebulario/tracker-stream@1.70.0-master":
   version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stateful-web/-/tracker-stateful-web-1.70.0-master.tgz#46dcb27f236c5d464425f00e9a31ebd7848187a6"
-  integrity sha512-L+uuCirBsJ3DpWsCoL1oTkdoqK3LIJOKgaue427N07zcwmnT2FeeU8g141CogPWVH0udlEzuj0GHe8hUFlJuEw==
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-stream/-/tracker-stream-1.70.0-master.tgz#ceb69cdc82f74e34844413929d7530d31a1517dd"
+  integrity sha512-sfOQMucGbVqS39ksLQlzjBD7Shldpi6shHR5RUiZBBMsg+peQ8rTskmcBFyDAHey2hZHg0miD09ufzHHU7fM+A==
   dependencies:
-    apollo-link-state "^0.4.1"
     babel-runtime "^6.26.0"
-    lodash "^4.17.11"
-    recompose "^0.30.0"
-    redux-actions "^2.6.4"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
 
 "@types/node@>=6":
   version "12.0.8"

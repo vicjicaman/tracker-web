@@ -56,10 +56,10 @@
     moment "^2.22.1"
     performance-now "^2.1.0"
 
-"@nebulario/tracker-common@1.70.1-master":
-  version "1.70.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.1-master.tgz#217120c0865bc5748e254dfeed9b439a17a610b8"
-  integrity sha512-iBC9gZd9aZW3az1vEURB8Fw6UQ/sMpSgQz4yDdW4Os5pFYTGb8m60K6tvTJbPlqwhCnhdQqBLQvDlJ96HUt6wg==
+"@nebulario/tracker-common@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.2-master.tgz#e028b6bcff64a14e8a8980c68a51c6e70a7d71e5"
+  integrity sha512-4o0pMCwAUlZoWdc9Xlv2A+O2GGWVnAahTbJwKt3fqI4FlmQlUti3PaWv7BZl0Y6p+6/c3fjnnEb+Yff0FWePxQ==
   dependencies:
     "@nebulario/tracker-app-events" "1.70.0-master"
     "@nebulario/tracker-app-form" "1.70.0-master"
@@ -153,10 +153,10 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/tracker-graph@1.70.1-master":
-  version "1.70.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.1-master.tgz#e3feed706d36a0282ac0e3d3594dfc6021357d71"
-  integrity sha512-toh4nEo0Ns29xPWR4iVW/Oh0s6mKVpdQs1Q8Z5/9dBQomNyMxHOmhE3J6zTxdkGqqQSAVroDy3xTX08MvJ32KA==
+"@nebulario/tracker-graph@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-graph/-/tracker-graph-1.70.2-master.tgz#b7dd2fea06c31aafeaac46f306a0ae7a62fef17e"
+  integrity sha512-2VE4Q5a98xqlIBM5KtIv8Ylw/Yecg+sRdbAoeYk9GN5D7YCjrPdzkf8pazlNxFLWXXCoaOvPeLcGlndSncdMyQ==
   dependencies:
     "@nebulario/tracker-events" "1.70.0-master"
     "@nebulario/tracker-git" "1.70.0-master"

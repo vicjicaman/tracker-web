@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/tracker-web",
-  "version": "1.70.2-master",
+  "version": "1.70.3-master",
   "description": "Base for modules in node",
   "main": "./dist/index.js",
   "repository": "github.com:vicjicaman/tracker-web.git",
@@ -46,14 +46,14 @@
     "analyze": "webpack --config webpack.config.js --env.analyze"
   },
   "dependencies": {
-    "@nebulario/tracker-stateful-web": "1.70.1-master",
-    "@nebulario/tracker-dll-apollo": "1.70.0-master",
-    "@nebulario/tracker-dll-react": "1.70.0-master",
-    "@nebulario/tracker-dll-redux": "1.70.0-master",
-    "@nebulario/tracker-dll-utils": "1.70.0-master",
-    "@nebulario/tracker-dll-vendor": "1.70.0-master",
-    "@nebulario/tracker-common": "1.70.2-master",
-    "@nebulario/tracker-graph": "1.70.2-master"
+    "@nebulario/tracker-stateful-web": "1.70.3-master",
+    "@nebulario/tracker-dll-apollo": "1.70.1-master",
+    "@nebulario/tracker-dll-react": "1.70.1-master",
+    "@nebulario/tracker-dll-redux": "1.70.1-master",
+    "@nebulario/tracker-dll-utils": "1.70.1-master",
+    "@nebulario/tracker-dll-vendor": "1.70.1-master",
+    "@nebulario/tracker-common": "1.70.3-master",
+    "@nebulario/tracker-graph": "1.70.3-master"
   },
   "peerDependencies": {}
 }

@@ -56,10 +56,10 @@
     moment "^2.22.1"
     performance-now "^2.1.0"
 
-"@nebulario/tracker-common@1.70.1-release-public-pkg-service-prod":
-  version "1.70.1-release-public-pkg-service-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.1-release-public-pkg-service-prod.tgz#245dea7635954b6064edc7348f6ffbe275abce4c"
-  integrity sha512-AuRQcQbO4w1NUgUrnJgh4MHpB+V2fivgKK2PlCqtxZyORIbYCHenFmXoE4ENfoPnwWDbtX4DfW1gnLI8UEjQKw==
+"@nebulario/tracker-common@1.70.4-master":
+  version "1.70.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/tracker-common/-/tracker-common-1.70.4-master.tgz#2eaa413b63f8444d4f37a38d121a142c4ff58d96"
+  integrity sha512-F2GCUmfWnjcJbb70X/P7KzQcyT6ENLzAbsKKo0mP89SCCo9TE4SSW2/hXpK8kVsl9kZWHPIZbzi4YJCnZsNTWw==
   dependencies:
     "@nebulario/tracker-app-events" "1.70.3-master"
     "@nebulario/tracker-app-form" "1.70.2-master"
